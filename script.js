@@ -3,7 +3,7 @@
 
   const API_BASE = "https://image.pollinations.ai/prompt/";
   const CHATS_KEY = "contrivance_chats_v1";
-  const SETTINGS_KEY = "contrivance_settings_v1";
+  const SETTINGS_KEY = "contrivance_settings_v2"; // bumped to reset stale batch/model choices to the new fast defaults
   const MAX_CHATS = 50;
 
   const $ = (id) => document.getElementById(id);
